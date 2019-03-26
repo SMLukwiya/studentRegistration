@@ -1,0 +1,134 @@
+<html>
+  <head></head>
+  <form>
+    <h1>Student Registration Form</h1>
+    <section>
+      <h2>Personal information</h2>
+      <p>
+      First Name:
+      <input type="text" name="firstname"/>
+      Last Name:
+      <input type="text" name="lastname"/>
+      </p>
+      <p>
+        <label for="Age">
+          <span>Age: </span>
+        </label>
+        <select id="Age" name="Age of student">
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+          <option value="32">32</option>
+          <option value="33">33</option>
+          <option value="34">34</option>
+          <option value="35">35</option>
+          <option value="36">36</option>
+          <option value="37">37</option>
+          <option value="38">38</option>
+          <option value="39">39</option>
+          <option value="40">40</option>
+          <option value="41">41</option>
+          <option value="42">42</option>
+          <option value="43">43</option>
+          <option value="44">44</option>
+          <option value="45">45</option>
+        </select>
+      </P>
+      <p>
+        <h3>Date of Birth</h3>
+          <label id="date_of_birth">
+          <input type="date" name="Birthdate"/>
+          </label>
+      </p>
+      <p>
+        <h3>Sex</h3>
+        <ul>
+          <li>
+            <label for="sex_1">
+              <input type="radio" id="sex_1" name="sex of student"/ value="Male">
+              Male
+            </label>
+          </li>
+          <li>
+            <label for="sex_2">
+              <input type="radio" id="sex_2" name="sex of student"/ value="Female">
+              Female
+            </label>
+          </li>
+          <li>
+            <label for="sex_3">
+              <input type="radio" id="sex_3" name="sex of student"/ value="Other">
+              Other
+            </label>
+          </li>
+        </ul>
+      </p>
+      <p>
+        Email:
+        <input type="text" name="Student Email"/>
+      </p>
+      <p>
+        Tel:
+        <input type="number" name="student number"/>
+      </P>
+      <p>
+        <h3>Student Bio</h3>
+        <textarea name="Short Profile" rows="4" length="300" cols="80"></textarea>
+      </p>
+      <p>
+        <h3>Height</h3>
+        <input type="range" min="4" max="8"/ value="50%">
+      </p>
+    </section>
+    <section>
+      <h2>Application Information</h2>
+      <p>
+        <strong>Year of Highschool Graduation </strong><br/>
+        <select id="year" name="Year of grad">
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+        </select>
+      </p>
+      <p>
+        <strong>Programming Lauguage to take:</strong><br/>
+        <input type="text" list="datalist"/>
+        <datalist id="datalist">
+          <option value="HTML">
+          <option value="JavaScript">
+          <option value="C++">
+          <option value="C#">
+          <option value="Ruby">
+          <option value="PHP">
+          <option value="Python">
+          <option value="Go">
+          <option value="CSS">
+        </datalist>
+      </p>
+      <strong>Upload Academic Document</strong>
+      <input type="file" name="uploadField" />
+    </section>
+    <section>
+      <p>
+        <input type="submit" name="submit" value=" Submit ">
+        <input type="reset" name="reser" value="reset">
+      </p>
+    </section>
+  </form>
+</html>
